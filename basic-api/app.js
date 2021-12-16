@@ -25,7 +25,7 @@ const fetchData = async () => {
 
     result.innerHTML = products;
   } catch (error) {
-    result.innerHTML = `<h2>erroe<h2>`;
+    result.innerHTML = `<h4>There Was An Error, Please Try Again Later<h2>`;
   }
 };
 
